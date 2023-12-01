@@ -11,3 +11,22 @@ Playground for [Learning NGINX](https://www.linkedin.com/learning/learning-nginx
 * `fly launch`
 * `fly deploy`
 * `fly open`
+
+## Verify
+
+* `fly ssh console`
+* `nginx -v`
+* `service nginx status`
+* https://nginx-playground.fly.dev
+* verify configuration `nginx -t`
+* display configuration `nginx -T`
+
+## Service
+
+```
+/etc/init.d/nginx {start|stop|status|restart|reload|force-reload|upgrade|configtest|check-reload}
+```
+
+### Reload
+
+Will reload configuration without stoping service.
