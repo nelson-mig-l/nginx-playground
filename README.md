@@ -30,3 +30,14 @@ Playground for [Learning NGINX](https://www.linkedin.com/learning/learning-nginx
 ### Reload
 
 Will reload configuration without stoping service.
+
+## Directories
+
+### Configuration
+
+`/etc/nginx/`
+
+### Logs
+
+`/var/log/nginx`
+
